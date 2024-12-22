@@ -1,0 +1,1 @@
+Placeo VR © 2024 by Giuseppe Forma is licensed under CC BY-NC 4.0 
