@@ -28,6 +28,8 @@ Placeo VR uses the PlayFab service to connect the two applications via the cloud
 
 - Create a Microsoft Azure account, add a Resource Group, and enable MySpeechServices, keeping in mind the 'SubscriptionKey' and 'Region'.
 
+- Make sure you have installed Autodesk 3ds Max on your computer for the correct import of Rocketbox avatars into the project.
+
 - Download the repository and open it with Unity.
 
 - Log in with your PlayFab credentials.
