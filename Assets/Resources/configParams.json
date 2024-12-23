@@ -1,0 +1,532 @@
+{
+  "Medico": {
+    "textSection11": {
+      "name": "Anagrafe e Aspetto",
+      "containerType": "textSection"
+    },
+    "genre": {
+      "name": "Genere",
+      "description": "Scegli il genere del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Donna", "Uomo", "Non specificato"]
+    },
+    "age": {
+      "name": "Età",
+      "description": "Modifica l'età del Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Giovane adulto", "Adulto", "Anziano", "Anziano (con rughe)"]
+    },
+    "ethnic": {
+      "name": "Etnia",
+      "description": "Cambia l'etnia del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Europea", "Asiatica", "Africana"]
+    },
+    "hair": {
+      "name": "Capelli",
+      "description": "Seleziona il colore dei capelli del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Neri", "Biondi", "Bianchi"]
+    },
+    "textSection12": {
+      "name": "Abbigliamento e Accessori",
+      "containerType": "textSection"
+    },
+    "scrubs": {
+      "name": "Camice",
+      "description": "Rimuovi o cambia il colore del camice indossato dal Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Bianco", "Nero", "Azzurro", "Blu", "Verde", "Rosa", "Bordeaux"]
+    },
+    "tie": {
+      "name": "Cravatta",
+      "description": "Rimuovi o cambia il colore della cravatta del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuna", "Bianco", "Nero", "Arancione", "Blu", "Verde", "Rosso", "Bordeaux"]
+    },
+    "shirt": {
+      "name": "Camicia",
+      "description": "Rimuovi o cambia il colore della camicia indossata dal Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuna", "Bianco", "Nero", "Arancione", "Azzurro", "Turchese", "Rosa", "Giallo"]
+    },
+    "glasses": {
+      "name": "Occhiali",
+      "description": "Scegli se il Medico indossa gli occhiali",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "stethoscope": {
+      "name": "Stetoscopio",
+      "description": "Scegli se il Medico ha uno stetoscopio",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "pen": {
+      "name": "Penna",
+      "description": "Scegli se il Medico ha una penna",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    }
+  },
+  "Comunicazione": {
+    "textSection21": {
+      "name": "Comunicazione verbale",
+      "containerType": "textSection"
+    },
+    "toneOfVoice": {
+      "name": "Tono di voce",
+      "description": "Varia il tono di voce del Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "accent": {
+      "name": "Accento",
+      "description": "Rimuovi o seleziona l'accento del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Nord", "Centro", "Sud"]
+    },
+    "grammaticalErrors": {
+      "name": "Errori grammaticali",
+      "description": "Indica il numero di errori grammaticali commessi dal Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Nessuno", "Pochi", "Medi", "Tanti"]
+    },
+    "empatheticWords": {
+      "name": "Parole empatiche",
+      "description": "Scegli quante parole empatiche il Medico esprime",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Poche", "Medie", "Tante"]
+    },
+    "prescriptionWords": {
+      "name": "Parole durante la prescrizione",
+      "description": "Decidi quante parole utilizza il Medico durante la prescrizione",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Poche", "Medie", "Tante"]
+    },
+    "textSection22": {
+      "name": "Comunicazione non verbale",
+      "containerType": "textSection"
+    },
+    "bodyOrientation": {
+      "name": "Orientamento del corpo",
+      "description": "Regola l'orientamento del corpo del Medico",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Verso il paziente", "Verso sinistra", "Verso destra"]
+    },
+    "position": {
+      "name": "Posizione",
+      "description": "Scegli la posizione del Medico in circostanze generali",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["In piedi", "Sedutə"]
+    },
+    "prescriptionPosition": {
+      "name": "Posizione durante la prescrizione",
+      "description": "Seleziona la posizione durante la prescrizione",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["In piedi", "Sedutə"]
+    },
+    "gazeAngle": {
+      "name": "Livello sguardo",
+      "description": "Decidi l'angolazione dello sguardo del Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "gazeType": {
+      "name": "Tipologia sguardo",
+      "description": "Seleziona in che modo il Medico fissa l'utente",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Continuo", "A tratti"]
+    },
+    "gazeAnglePrescription": {
+      "name": "Orientamento sguardo durante la prescrizione",
+      "description": "Determina l'orientamento dello sguardo del Medico durante la prescrizione",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Verso il paziente", "Di lato"]
+    },
+    "facialExpression": {
+      "name": "Espressione facciale",
+      "description": "Decidi il grado di empatia nelle espressioni facciali del Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Non empatica", "Neutra", "Empatica"]
+    },
+    "gestures": {
+      "name": "Gestualità",
+      "description": "Scegli quanti gesti compie il Medico",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Nessuno", "Pochi", "Medi", "Tanti"]
+    },
+    "nodding": {
+      "name": "Annuire",
+      "description": "Scegli se il Medico annuisce e in che modo",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["Per niente", "Leggero", "Enfatizzato"]
+    },
+    "touch": {
+      "name": "Tocco",
+      "description": "Decidi se il Medico tocca l'utente",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "touchArea": {
+      "name": "Zona del tocco",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Mano", "Polso"]
+    },
+    "touchVelocity": {
+      "name": "Velocità del tocco",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Lenta", "Veloce"]
+    },
+    "smile": {
+      "name": "Sorriso",
+      "description": "Scegli se il Medico sorride e in che modo",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Stretto", "Neutro", "Largo"]
+    }
+  },
+  "Ambiente - Stanza del Medico": {
+    "textSection31": {
+      "name": "Arredamento",
+      "containerType": "textSection"
+    },
+    "furni": {
+      "name": "Mobili",
+      "description": "Scegli se vuoi del mobilio nella Stanza del Medico",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "furniQuantity": {
+      "name": "Quantità di mobili presenti",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Pochi", "Medi", "Tanti"]
+    },
+    "furniStyle": {
+      "name": "Stile dei mobili",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Rovinati", "Economici", "Standard", "Di lusso"]
+    },
+    "plant": {
+      "name": "Piante",
+      "description": "Indica se nella Stanza del Medico ci sono delle piante e in quali condizioni",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuna", "Secche", "Verdi"]
+    },
+    "clock": {
+      "name": "Orologio",
+      "description": "Decidi se è presente un orologio e di quale tipologia",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Digitale", "Analogico"]
+    },
+    "certificate": {
+      "name": "Certificati",
+      "description": "Scegli se vuoi dei certificati esposti alle pareti",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "degree": {
+      "name": "Laurea",
+      "containerType": "settingContainerMini",
+      "type": "checkbox"
+    },
+    "moreCertificates": {
+      "name": "Altri certificati",
+      "containerType": "settingContainerMini",
+      "type": "checkbox"
+    },
+    "computer": {
+      "name": "Computer",
+      "description": "Scegli se vuoi un computer nella scrivania del Medico",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "computerPosition": {
+      "name": "Posizione del computer",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Davanti", "Dietro"]
+    },
+    "computerOrientation": {
+      "name": "Orientamento del computer",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Verso sinistra", "Verso destra"]
+    },
+    "window": {
+      "name": "Finestre",
+      "description": "Decidi se sono presenti delle finestre nella Stanza del Medico",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "windowColor": {
+      "name": "Colore delle finestre",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Bianco", "Nero"]
+    },
+    "windowLandscape": {
+      "name": "Paesaggio visibile",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Nessuno", "Città", "Campagna"]
+    },
+    "textSection32": {
+      "name": "Audio e Suoni",
+      "containerType": "textSection"
+    },
+    "noise": {
+      "name": "Rumore",
+      "description": "Scegli se nella Stanza del Medico è presente del rumore ambientale",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "noiseVolume": {
+      "name": "Volume del rumore",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "noiseType": {
+      "name": "Tipologia di rumore",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Rilassante", "Neutro", "Fastidioso"]
+    },
+    "music": {
+      "name": "Musica",
+      "description": "Scegli se nella Stanza del Medico è presente della musica",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "musicVolume": {
+      "name": "Volume della musica",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "musicType": {
+      "name": "Genere musicale",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Da ambiente", "Classica", "Rock"]
+    },
+    "textSection33": {
+      "name": "Altro",
+      "containerType": "textSection"
+    },
+    "staff": {
+      "name": "Personale ospedaliero",
+      "description": "Scegli l'affluenza del personale ospedaliero all'interno della Stanza del Medico",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "doctors": {
+      "name": "Quantità di Medici",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["0", "1", "2"]
+    },
+    "nurses": {
+      "name": "Quantità di Infermieri/e",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["0", "1", "2"]
+    },
+    "time": {
+      "name": "Fascia oraria",
+      "description": "Seleziona la fascia oraria in cui ambientare la Simulazione",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Mattina", "Mezzogiorno", "Pomeriggio", "Sera", "Notte"]
+    }
+  },
+  "Ambiente - Sala d'attesa": {
+    "waitingRoom": {
+      "name": "Abilita questa Ambientazione",
+      "description": "Scegli se includere la Sala d'attesa nella Simulazione",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "textSection31": {
+      "name": "Arredamento - Sala d'attesa",
+      "containerType": "textSection"
+    },
+    "furni_WaitingRoom": {
+      "name": "Mobili",
+      "description": "Scegli se vuoi del mobilio nella Sala d'attesa",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "furniQuantity_WaitingRoom": {
+      "name": "Quantità di mobili presenti",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Pochi", "Medi", "Tanti"]
+    },
+    "furniStyle_WaitingRoom": {
+      "name": "Stile dei mobili",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Rovinati", "Economici", "Standard", "Di lusso"]
+    },
+    "plant_WaitingRoom": {
+      "name": "Piante",
+      "description": "Indica se nella Sala d'attesa ci sono delle piante e in quali condizioni",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuna", "Secche", "Verdi"]
+    },
+    "clock_WaitingRoom": {
+      "name": "Orologio",
+      "description": "Decidi se è presente un orologio e di quale tipologia",
+      "containerType": "settingContainer",
+      "type": "dropdown",
+      "options": ["Nessuno", "Digitale", "Analogico"]
+    },
+    "window_WaitingRoom": {
+      "name": "Finestre",
+      "description": "Decidi se sono presenti delle finestre nella Sala d'attesa",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "windowColor_WaitingRoom": {
+      "name": "Colore delle finestre",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Bianco", "Nero"]
+    },
+    "windowLandscape_WaitingRoom": {
+      "name": "Paesaggio visibile",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Nessuno", "Città", "Campagna"]
+    },
+    "textSection32": {
+      "name": "Audio e Suoni - Sala d'attesa",
+      "containerType": "textSection"
+    },
+    "noise_WaitingRoom": {
+      "name": "Rumore",
+      "description": "Scegli se nella Sala d'attesa è presente del rumore ambientale",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "noiseVolume_WaitingRoom": {
+      "name": "Volume del rumore",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "noiseType_WaitingRoom": {
+      "name": "Tipologia di rumore",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Rilassante", "Neutro", "Fastidioso"]
+    },
+    "music_WaitingRoom": {
+      "name": "Musica",
+      "description": "Scegli se nella Sala d'attesa è presente della musica",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "musicVolume_WaitingRoom": {
+      "name": "Volume della musica",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["Basso", "Medio", "Alto"]
+    },
+    "musicType_WaitingRoom": {
+      "name": "Genere musicale",
+      "containerType": "settingContainerMini",
+      "type": "dropdown",
+      "options": ["Da ambiente", "Classica", "Rock"]
+    },
+    "textSection33": {
+      "name": "Altro - Sala d'attesa",
+      "containerType": "textSection"
+    },
+    "staff_WaitingRoom": {
+      "name": "Personale ospedaliero",
+      "description": "Scegli l'affluenza del personale ospedaliero all'interno della Sala d'attesa",
+      "containerType": "settingContainerExpandable",
+      "type": "toggle"
+    },
+    "doctors_WaitingRoom": {
+      "name": "Quantità di Medici",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["0", "1", "2"]
+    },
+    "nurses_WaitingRoom": {
+      "name": "Quantità di Infermieri/e",
+      "containerType": "settingContainerMini",
+      "type": "slider",
+      "options": ["0", "1", "2"]
+    },
+    "patients_WaitingRoom": {
+      "name": "Pazienti",
+      "description": "Scegli quanti pazienti sono presenti nella Sala d'attesa",
+      "containerType": "settingContainer",
+      "type": "slider",
+      "options": ["0", "1", "2", "3", "4", "5"]
+    }
+  },
+  "Accessibilità": {
+    "textSection41": {
+      "name": "",
+      "containerType": "textSection"
+    },
+    "teleport": {
+      "name": "Teletrasporto",
+      "description": "Consenti all'utente di navigare virtualmente nella simulazione, anche in spazi limitati e senza la necessità di camminare fisicamente",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "snapTurn": {
+      "name": "Snap turn",
+      "description": "Consenti all'utente di cambiare l'angolo di visuale senza la necessità di muovere la testa",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "distanceGrab": {
+      "name": "Afferrare oggetti a distanza",
+      "description": "Consenti all'utente di prendere oggetti da lontano",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    },
+    "devMode": {
+      "name": "Modalità sviluppatore",
+      "description": "Visualizza fps",
+      "containerType": "settingContainer",
+      "type": "toggle"
+    }
+  }
+}
